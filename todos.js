@@ -1,4 +1,4 @@
-const infProducto = document.querySelector('.openModels')
+const infProducto = document.querySelector('.populares')
 
 const templateCards = document.querySelector('#template-cards').content
 const templateCar = document.querySelector('#template-carrito').content

@@ -7,7 +7,11 @@
 .header{
     display: flex;
     flex-direction: row;
-    margin-bottom: 10px;
+    align-self: center;
+    padding: 1em 1em;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: #FF00FF 1px solid;
 }
 .header-nav{
     width: 70%;
@@ -51,16 +55,18 @@
     color: black;
 }
 .containerPadre{
+    display: flex;
+    gap: 20px;
     padding: 40px 40px;
 }
 #primer-scroll{
     width: 30%;
     overflow-y: scroll;
     height: 100vh;
-    margin-top: -7em;
-    position: fixed;
+    margin-top: -5em;
+    position: sticky;
+    top: 0;
 }
-
 #primer-scroll a{
     display: flex;
     margin-bottom: 15px;
@@ -69,31 +75,26 @@
     text-decoration: none;
     color: black;
 }
-.subTitle{
-    color: violet;
-    margin-left: 20px;
-    margin-bottom: 1%;
-}
 .title2{
-    border-top: solid 1px violet;
-    padding-top: 70px;
-    padding-bottom: 30px;
-    text-align: center;
-    font-size: 40px;
+    padding-top: 20px;
+    text-align: right;
+    padding-right: 50px;
+    font-size: 36px;
     font-family: cursive;
     color: purple;
 }
 .active{
     background-color: violet;
 }
-.openModels{
+.populares{
     display: grid;
     grid-template-columns: max-content;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     grid-auto-rows: minmax(100px, auto);
-    width: 100%;
-    display: none;
+    width: 70%;
+    display: '';
+    cursor: pointer;
 }
 .paris{
     display: grid;
@@ -101,7 +102,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     grid-auto-rows: minmax(100px, auto);
-    width: 100%;
+    width: 70%;
     background-color: seagreen;
     display: none;
 }
