@@ -1,0 +1,39 @@
+[
+    {
+        "precio": 3,
+        "id": 13,
+        "categoria": "flores",
+        "imagen": "imagenes/4.jpg"
+      },
+      {
+        "precio": 3,
+        "id": 14,
+        "flores": "flores",
+        "imagen": "imagenes/2.jpg"
+      },
+      {
+        "precio": 3,
+        "id": 15,
+        "categoria": "flores",
+        "imagen": "imagenes/3.jpg"
+      },
+      {
+        "precio": 3,
+        "id": 16,
+        "categoria": "terror",
+        "imagen": "imagenes/4.jpg"
+      },
+      {
+        "precio": 3,
+        "id": 17,
+        "categoria": "halowen",
+        "imagen": "imagenes/3.jpg"
+      },
+      {
+        "precio": 3,
+        "id": 18,
+        "categoria": "navideñas",
+        "imagen": "imagenes/4.jpg"
+      }
+]
+    

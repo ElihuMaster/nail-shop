@@ -1,4 +1,6 @@
 const infProducto = document.querySelector('.populares')
+const infParis = document.querySelector('.paris')
+const infFlores = document.querySelector('.flores')
 
 const templateCards = document.querySelector('#template-cards').content
 const templateCar = document.querySelector('#template-carrito').content
@@ -23,6 +25,14 @@ infProducto.addEventListener('click', (e) => { //importante con esto solo detect
     addCarrito(e)
 })
 
+infParis.addEventListener('click', (e) => {
+    addCarrito(e)
+})
+
+infFlores.addEventListener('click', (e) => {
+    addCarrito(e)
+})
+
 items.addEventListener('click', (e) => {
     btnAccion(e)
 })
@@ -32,10 +42,15 @@ items.addEventListener('click', (e) => {
 const fetchData = async () => {
     try {
         const res = await fetch('nail.json')
+        const resParis = await fetch('nailParis.json')
+        const resFlores = await fetch('nailFlores.json')
         const data = await res.json()
+        const dataParis = await resParis.json()
+        const dataFlores = await resFlores.json()
         // console.log(data)
         pintarProducto(data)
-        pintarParis(data)
+        pintarParis(dataParis)
+        pintarFlores(dataFlores)
         
     } catch (error) {
         console.log(error);
@@ -55,6 +70,33 @@ const pintarProducto = (data) => {
     });
     infProducto.appendChild(fragment)
 }
+
+const pintarParis = (dataParis) => {
+    dataParis.forEach(producto => {
+        templateCards.querySelector('p').textContent = producto.precio
+        templateCards.querySelector('h5').textContent = producto.categoria
+        templateCards.querySelector('img').setAttribute('src', producto.imagen)
+        templateCards.querySelector('.btn').dataset.id = producto.id
+        const clone = templateCards.cloneNode(true)
+        fragment.appendChild(clone)
+    //  console.log(producto)
+    });
+    infParis.appendChild(fragment)
+}
+
+const pintarFlores = (dataFlores) => {
+    dataFlores.forEach(producto => {
+        templateCards.querySelector('p').textContent = producto.precio
+        templateCards.querySelector('h5').textContent = producto.categoria
+        templateCards.querySelector('img').setAttribute('src', producto.imagen)
+        templateCards.querySelector('.btn').dataset.id = producto.id
+        const clone = templateCards.cloneNode(true)
+        fragment.appendChild(clone)
+    //  console.log(producto)
+    });
+    infFlores.appendChild(fragment)
+}
+
 const addCarrito = e => {
     // console.log(e.target.classList.contains('btn-dark'))
         // console.log(e.target)

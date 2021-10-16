@@ -1,0 +1,44 @@
+[
+    {
+        "precio": 3,
+        "id": 6,
+        "categoria": "paris",
+        "imagen": "imagenes/4.jpg"
+      },
+      {
+        "precio": 3,
+        "id": 7,
+        "categoria": "psris",
+        "imagen": "imagenes/3.jpg"
+      },
+      {
+        "precio": 3,
+        "id": 8,
+        "categoria": "paris",
+        "imagen": "imagenes/4.jpg"
+      },
+      {
+        "precio": 3,
+        "id": 9,
+        "categoria": "verano",
+        "imagen": "imagenes/4.jpg"
+      },
+      {
+        "precio": 3,
+        "id": 10,
+        "categoria": "coloridas",
+        "imagen": "imagenes/4.jpg"
+      },  
+      {
+        "precio": 3,
+        "id": 11,
+        "categoria": "paris",
+        "imagen": "imagenes/2.jpg"
+      },
+      {
+        "precio": 3,
+        "id": 12,
+        "mariposas": "mariposas",
+        "imagen": "imagenes/3.jpg"
+      }
+]

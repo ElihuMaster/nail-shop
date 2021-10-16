@@ -2,129 +2,161 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="catalogo.css">
-  <title>Catalogo de uñas</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="catalogo.css">
+    <title>Todos los modelos</title>
 </head>
 
-<body class="cuerpo">
+<body>
+    <div class="container">
+        <div class="item">
+            <div class="title">
+                <p>LAMINAS DE GEL</p>
+            </div>
 
-  <div class="top-navegacion">
+            <div class="navegacion">
+                <nav>
+                    <ul>
+                        <a href="principal.html" onclick="inicio ()">Inicio</a>
+                        |<a href="catalogo.html" onclick="catalogo ()" class="active">Catalogo</a>
+                        |<a href="nosotros.html" onclick="nosotros ()">Nosotros</a>
+                        |<a href="blog.html" onclick="blog ()">Blog</a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
 
-    <nav>
-      <ul class="navList">
-        <a href="./Todos.html" class="enlaces">Todos</a>
-        <a href="./flores.html" class="enlaces">Flores</a>
-        <a href="./Mariposas.html" class="enlaces">Mariposas</a>
-        <a href="./Minnie y Mickey.html" class="enlaces">Minnie y Mickey</a>
-        <a href="./Animes.html" class="enlaces">Animes</a>
-        <a href="./Amor.html" class="enlaces">Amor</a>
-        <a href="./Navideñas.html" class="enlaces">Navideñas</a>
-        <a href="./Negras.html" class="enlaces">Negras</a>
-        <a href="./Haloowen.html" class="enlaces">Haloowen</a>
-      </ul>
-    </nav>
+        <div class="btnCarrito">
+            <button class="carrito">Ir al Carrito</button>
+        </div>
 
-  </div>
-  <div class="top-title">
+        <div class="containerPadre">
 
-    <div id="sub-title" >
-      Solo da click en el boton comprar y añadimos tu lamina de gel al carrito de compras
-    </div>
+            <div id="primer-scroll">
+                <ul>
+                    <li class="active"><a href="#" onclick="showd1 ()">!Las Mas Populares¡</a></li>
+                    <li><a href="#" onclick="showd2 ()">> Flores</a></li>
+                    <li><a href="#" onclick="showd3 ()">> Paris</a></li>
+                    <li><a href="#" onclick="showd4 ()">> Mariposas</a></li>
+                    <li><a href="#" onclick="showd5 ()">> Minnie y Mickey</a></li>
+                    <li><a href="#" onclick="showd6 ()">> Animes</a></li>
+                    <li><a href="#" onclick="showd7 ()">> Amor</a></li>
+                    <li><a href="#" onclick="showd8 ()">> Navideñas</a></li>
+                    <li><a href="#" onclick="showd9 ()">> Negras</a></li>
+                    <li><a href="#" onclick="showd10 ()">> Atrapa Sueoos</a></li>
+                    <li><a href="#" onclick="showd11 ()">> Mandalas</a></li>
+                    <li><a href="#" onclick="showd2 ()">> Flores</a></li>
+                    <li><a href="#" onclick="showd3 ()">> Paris</a></li>
+                    <li><a href="#" onclick="showd4 ()">> Mariposas</a></li>
+                    <li><a href="#" onclick="showd5 ()">> Minnie y Mickey</a></li>
+                    <li><a href="#" onclick="showd6 ()">> Animes</a></li>
+                    <li><a href="#" onclick="showd7 ()">> Amor</a></li>
+                    <li><a href="#" onclick="showd8 ()">> Navideñas</a></li>
+                    <li><a href="#" onclick="showd9 ()">> Negras</a></li>
+                    <li><a href="#" onclick="showd10 ()">> Atrapa Sueoos</a></li>
+                    <li><a href="#" onclick="showd11 ()">> Mandalas</a></li>
+                    <li><a href="#" onclick="showd2 ()">> Flores</a></li>
+                    <li><a href="#" onclick="showd3 ()">> Paris</a></li>
+                    <li><a href="#" onclick="showd4 ()">> Mariposas</a></li>
+                    <li><a href="#" onclick="showd5 ()">> Minnie y Mickey</a></li>
+                    <li><a href="#" onclick="showd6 ()">> Animes</a></li>
+                    <li><a href="#" onclick="showd7 ()">> Amor</a></li>
+                    <li><a href="#" onclick="showd8 ()">> Navideñas</a></li>
+                    <li><a href="#" onclick="showd9 ()">> Negras</a></li>
+                    <li><a href="#" onclick="showd10 ()">> Atrapa Sueoos</a></li>
+                    <li><a href="#" onclick="showd11 ()">> Mandalas</a></li>
 
-    <div class="top-botones">
-      <a href="./precios.html">Precios</a>
-      <button title="ir a la carrito">ir al CARRITO</button>
-    </div>
-    
-  </div>
-
-
-    <div class="row"></div>
-  
-  
-    <template id="template-cards">
-
-  <div class="cards">
-
-      <div class="content">
-          
-          <div class="image">
-            <img src="" alt="">
-          </div>
-            
-          <div class="card-body">
-            <h5 class="text">title</h5>
-            <p class="text"><span>precio</span></p>
-            <button class="btn">comprar</button>
-          </div>
-        
-      </div>
-    
-  </div>
-    </template>
-
-    <table class="table">
-      <thead>
-        <tr>
-          <th class="codigo"># codigo</th>
-          <th>Categoria</th>
-          <th>Cantidad</th>
-          <th>Acción</th>
-          <th>Precio Total</th>
-        </tr>
-      </thead>
-      <tbody id="items"></tbody>
-      <tfoot>
-        <tr id="footer">
-          <th colspan="6"><span class="msj">Carrito vacío - comience a comprar!</span>
-          </th>
-        </tr>
-      </tfoot>
-    </table>
-
-    <template id="template-footer">
-      <th colspan="2">Total productos</th>
-      <td>suma de productos</td>
-      <td>
-        <button id="vaciar-carrito">
-          vaciar todo
-        </button>
-      </td>
-      <th class="final">no me veo</th><!--pendiente añadir nuevos soles al precio final-->
-    </template>
-  
-  
-  <template id="template-carrito">
-    <tr>
-      <th>codigo</th>
-      <td>Categoria</td>
-      <td>1</td>
-      <td>
-        <button class="btn-info">
-          +
-        </button>
-        <button class="btn-danger">
-          -
-        </button>
-      </td>
-      <td>$<span>precio total</span></td>
-    </tr>
-  </template>
-  
-
-  
-    
-    
-    <!--muestro mi contenido // pinto el carrito-->
+                </ul>
+            </div>
 
 
-  <script src="catalogo.js"></script>
+
+            <div class="populares"></div>
+            <div class="flores"></div>
+            <div class="paris"></div>
+
+            <template id="template-cards">
+
+                <div class="cards">
+
+                    <div class="content">
+
+                        <div class="image">
+                            <img src="" alt="">
+                        </div>
+
+                        <div class="card-body">
+                            <span>s/<p class="text"></p></span>
+                            <h5 class="text">title</h5>
+                            <button class="btn">comprar</button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </template>
+
+
+
+        </div>
+
+        <div class="container-table">
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="codigo"># codigo</th>
+                        <th>Categoria</th>
+                        <th>Cantidad</th>
+                        <th>Acción</th>
+                        <th>Precio Total</th>
+                    </tr>
+                </thead>
+                <tbody id="items"></tbody>
+                <tfoot>
+                    <tr id="footer">
+                        <th colspan="6"><span class="msj">Carrito vacío - comience a comprar!</span>
+                        </th>
+                    </tr>
+                </tfoot>
+            </table>
+
+        </div>
+
+        <template id="template-footer">
+            <th colspan="2">Total productos</th>
+            <td>suma de productos</td>
+            <td>
+                <button id="vaciar-carrito">
+                    vaciar todo
+                </button>
+            </td>
+            <th class="final">no me veo</th>
+            <!--pendiente añadir nuevos soles al precio final-->
+        </template>
+
+
+        <template id="template-carrito">
+            <tr>
+                <th>codigo</th>
+                <td>Categoria</td>
+                <td>1</td>
+                <td>
+                    <button class="btn-info">
+                        +
+                    </button>
+                    <button class="btn-danger">
+                        -
+                    </button>
+                </td>
+                <td>$<span>precio total</span></td>
+            </tr>
+        </template>
+
+        <script src="todos.js"></script>
+        <script src="claseActive.js"></script>
 </body>
 
 </html>
-<!-- <img src="imgProject/visa.png" alt="">
-<img src="imgProject/master card.png" alt="">
-<img src="imgProject/cmrVisa.jpg" alt=""> -->

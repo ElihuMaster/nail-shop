@@ -31,80 +31,242 @@
     },
     {
       "precio": 3,
-      "id": 6,
-      "categoria": "terror",
-      "imagen": "imagenes/4.jpg"
-    },
-    {
-      "precio": 3,
-      "id": 7,
-      "categoria": "halowen",
-      "imagen": "imagenes/3.jpg"
-    },
-    {
-      "precio": 3,
-      "id": 8,
-      "categoria": "navideñas",
-      "imagen": "imagenes/4.jpg"
-    },
-    {
-      "precio": 3,
-      "id": 9,
-      "categoria": "verano",
-      "imagen": "imagenes/4.jpg"
-    },
-    {
-      "precio": 3,
-      "id": 10,
-      "categoria": "coloridas",
-      "imagen": "imagenes/4.jpg"
-    },  
-    {
-      "precio": 3,
-      "id": 11,
+      "id": 1,
       "categoria": "paris",
       "imagen": "imagenes/2.jpg"
     },
     {
       "precio": 3,
-      "id": 12,
+      "id": 2,
       "mariposas": "mariposas",
       "imagen": "imagenes/3.jpg"
     },
     {
       "precio": 3,
-      "id": 13,
+      "id": 3,
       "categoria": "amor",
       "imagen": "imagenes/4.jpg"
     },
     {
       "precio": 3,
-      "id": 14,
+      "id": 4,
       "flores": "flores",
       "imagen": "imagenes/2.jpg"
     },
     {
       "precio": 3,
-      "id": 15,
+      "id": 5,
       "categoria": "girasoles",
       "imagen": "imagenes/3.jpg"
     },
     {
       "precio": 3,
-      "id": 16,
-      "categoria": "terror",
-      "imagen": "imagenes/4.jpg"
+      "id": 1,
+      "categoria": "paris",
+      "imagen": "imagenes/2.jpg"
     },
     {
       "precio": 3,
-      "id": 17,
-      "categoria": "halowen",
+      "id": 2,
+      "mariposas": "mariposas",
       "imagen": "imagenes/3.jpg"
     },
     {
       "precio": 3,
-      "id": 18,
-      "categoria": "navideñas",
+      "id": 3,
+      "categoria": "amor",
       "imagen": "imagenes/4.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 4,
+      "flores": "flores",
+      "imagen": "imagenes/2.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 5,
+      "categoria": "girasoles",
+      "imagen": "imagenes/3.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 1,
+      "categoria": "paris",
+      "imagen": "imagenes/2.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 2,
+      "mariposas": "mariposas",
+      "imagen": "imagenes/3.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 3,
+      "categoria": "amor",
+      "imagen": "imagenes/4.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 4,
+      "flores": "flores",
+      "imagen": "imagenes/2.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 5,
+      "categoria": "girasoles",
+      "imagen": "imagenes/3.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 1,
+      "categoria": "paris",
+      "imagen": "imagenes/2.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 2,
+      "mariposas": "mariposas",
+      "imagen": "imagenes/3.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 3,
+      "categoria": "amor",
+      "imagen": "imagenes/4.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 4,
+      "flores": "flores",
+      "imagen": "imagenes/2.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 5,
+      "categoria": "girasoles",
+      "imagen": "imagenes/3.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 1,
+      "categoria": "paris",
+      "imagen": "imagenes/2.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 2,
+      "mariposas": "mariposas",
+      "imagen": "imagenes/3.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 3,
+      "categoria": "amor",
+      "imagen": "imagenes/4.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 4,
+      "flores": "flores",
+      "imagen": "imagenes/2.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 5,
+      "categoria": "girasoles",
+      "imagen": "imagenes/3.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 1,
+      "categoria": "paris",
+      "imagen": "imagenes/2.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 2,
+      "mariposas": "mariposas",
+      "imagen": "imagenes/3.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 3,
+      "categoria": "amor",
+      "imagen": "imagenes/4.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 4,
+      "flores": "flores",
+      "imagen": "imagenes/2.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 5,
+      "categoria": "girasoles",
+      "imagen": "imagenes/3.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 1,
+      "categoria": "paris",
+      "imagen": "imagenes/2.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 2,
+      "mariposas": "mariposas",
+      "imagen": "imagenes/3.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 3,
+      "categoria": "amor",
+      "imagen": "imagenes/4.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 4,
+      "flores": "flores",
+      "imagen": "imagenes/2.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 5,
+      "categoria": "girasoles",
+      "imagen": "imagenes/3.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 3,
+      "categoria": "amor",
+      "imagen": "imagenes/4.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 4,
+      "flores": "flores",
+      "imagen": "imagenes/2.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 5,
+      "categoria": "girasoles",
+      "imagen": "imagenes/3.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 4,
+      "flores": "flores",
+      "imagen": "imagenes/2.jpg"
+    },
+    {
+      "precio": 3,
+      "id": 5,
+      "categoria": "girasoles",
+      "imagen": "imagenes/3.jpg"
     }
 ]
