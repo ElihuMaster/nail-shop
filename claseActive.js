@@ -30,6 +30,3 @@ li.forEach(el => {
 });
 
 
-let botonCar = document.querySelector('.carrito').addEventListener('click', function () {
-    botonCar.querySelector('.container-table').classList
-  })

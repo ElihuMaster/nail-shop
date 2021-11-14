@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () =>{
  let images = [
     'imagenes/spa2.jpg', 'imagenes/fondoWeb.jpg'
 ];
+
  const mostrar = document.querySelector('#image-carrusel')
  let inicia = 0;
  const carrusel = () => {
